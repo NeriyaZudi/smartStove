@@ -14,10 +14,10 @@
         },
     
         "EGG":{
-            "time":35,
+            "totaltime":35,
             "temperature":null,
             "waterAmount": 1652, 
-            "amount": 1,
+            "amount": 70,
             "cover":false,
             "heatLevel":4,
             "mixing": false,
@@ -26,10 +26,10 @@
             "taste":""
         },
         "PASTA":{
-            "time":25,
+            "totaltime":25,
             "temperature":null,
             "waterAmount": 2000, 
-            "amount": 0.5,
+            "amount": 500,
             "cover":false,
             "heatLevel":4,
             "mixing": true,
@@ -38,10 +38,10 @@
             "taste":""
         },
         "RICE":{
-            "time":35,
+            "totaltime":35,
             "temperature":null,
             "waterAmount": 500, 
-            "amount": 0.2,
+            "amount": 200,
             "cover":true,
             "heatLevel":4,
             "mixing": true,
@@ -50,10 +50,10 @@
             "taste":""
         },
         "ILCOUSCOUS":{
-            "time":20,
+            "totaltime":20,
             "temperature":null,
             "waterAmount": 250, 
-            "amount": 0.2,
+            "amount": 200,
             "cover":true,
             "heatLevel":4,
             "mixing": true,
