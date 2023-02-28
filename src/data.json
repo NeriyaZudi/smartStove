@@ -606,13 +606,6 @@
 
 
 
-
-
-
-
-
-
-
         },
         "PASTA":{
             "TRY-0":{
@@ -993,7 +986,7 @@
                 "mixing": true,
                 "waterInitTemp":1,
                 "result": 1,
-                "feedback":1
+                "feedback":2
 
             },
             "TRY-27":{
@@ -1020,7 +1013,7 @@
                 "heatLevel":4,
                 "mixing": true,
                 "waterInitTemp":1,
-                "result": 0,
+                "result": 1,
                 "feedback":1
 
             },
@@ -1037,7 +1030,150 @@
                 "result": 0,
                 "feedback":0
 
+            },
+            // בעשר נסיונות הבאים הורדנו רמת חום ל 2 והחזרנו את טמפרטורת המים לרותחים וכל שאר הפרמטרים אותו דבר
+
+            "TRY-30":{
+                "totaltime": 30,
+                "staytime": 0,
+                "temperature":null,
+                "waterAmount": 1500, 
+                "amount": 250,
+                "cover":0,
+                "heatLevel":2,
+                "mixing": true,
+                "waterInitTemp":2,
+                "result": 3,
+                "feedback":4
+
+            },
+            "TRY-31":{
+                "totaltime": 30,
+                "staytime": 5,
+                "temperature":null,
+                "waterAmount": 1500, 
+                "amount": 250,
+                "cover":0,
+                "heatLevel":2,
+                "mixing": true,
+                "waterInitTemp":2,
+                "result": 3,
+                "feedback":3
+
+            },
+            "TRY-32":{
+                "totaltime": 25,
+                "staytime": 0,
+                "temperature":null,
+                "waterAmount": 1500, 
+                "amount": 250,
+                "cover":0,
+                "heatLevel":2,
+                "mixing": true,
+                "waterInitTemp":2,
+                "result": 2,
+                "feedback":3
+
+            },
+            "TRY-33":{
+                "totaltime":25 ,
+                "staytime": 5,
+                "temperature":null,
+                "waterAmount": 1500, 
+                "amount": 250,
+                "cover":0,
+                "heatLevel":2,
+                "mixing": true,
+                "waterInitTemp":2,
+                "result": 2,
+                "feedback":3
+
+            },
+            "TRY-34":{
+                "totaltime":20 ,
+                "staytime": 0,
+                "temperature":null,
+                "waterAmount": 1500, 
+                "amount": 250,
+                "cover":0,
+                "heatLevel":2,
+                "mixing": true,
+                "waterInitTemp":2,
+                "result": 2,
+                "feedback":2
+
+            },
+            "TRY-35":{
+                "totaltime": 20,
+                "staytime": 5,
+                "temperature":null,
+                "waterAmount": 1500, 
+                "amount": 250,
+                "cover":0,
+                "heatLevel":2,
+                "mixing": true,
+                "waterInitTemp":2,
+                "result": 1,
+                "feedback":2
+
+            },
+            "TRY-36":{
+                "totaltime": 17,
+                "staytime": 0,
+                "temperature":null,
+                "waterAmount": 1500, 
+                "amount": 250,
+                "cover":0,
+                "heatLevel":2,
+                "mixing": true,
+                "waterInitTemp":2,
+                "result": 1,
+                "feedback":1
+
+            },
+            "TRY-37":{
+                "totaltime": 17,
+                "staytime": 5,
+                "temperature":null,
+                "waterAmount": 1500, 
+                "amount": 250,
+                "cover":0,
+                "heatLevel":2,
+                "mixing": true,
+                "waterInitTemp":2,
+                "result": 1,
+                "feedback":1
+
+            },
+            "TRY-38":{
+                "totaltime": 14,
+                "staytime": 0,
+                "temperature":null,
+                "waterAmount": 1500, 
+                "amount": 250,
+                "cover":0,
+                "heatLevel":2,
+                "mixing": true,
+                "waterInitTemp":2,
+                "result": 0,
+                "feedback":1
+
+            },
+            "TRY-39":{
+                "totaltime": 14,
+                "staytime": 5,
+                "temperature":null,
+                "waterAmount": 1500, 
+                "amount": 250,
+                "cover":0,
+                "heatLevel":2,
+                "mixing": true,
+                "waterInitTemp":2,
+                "result": 0,
+                "feedback":0
+
             }
+            
             
         },
 
