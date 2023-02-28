@@ -1534,7 +1534,7 @@
                 "mixing": true,
                 "waterInitTemp":2,
                 "result": 2,
-                "feedback":2
+                "feedback":3
 
             },
             "TRY-25":{
@@ -1561,7 +1561,7 @@
                 "heatLevel":2,
                 "mixing": true,
                 "waterInitTemp":2,
-                "result": 1,
+                "result": 2,
                 "feedback":2
 
             },
@@ -1576,7 +1576,7 @@
                 "mixing": true,
                 "waterInitTemp":2,
                 "result": 1,
-                "feedback":1
+                "feedback":2
 
             },
             "TRY-28":{
@@ -1606,8 +1606,148 @@
                 "result": 0,
                 "feedback":1
 
-            }
-            
+            },
+           // בעשר נסיונות הבאים הורדנו רמת חום ל 1  וכל שאר הפרמטרים אותו דבר
+           "TRY-30":{
+            "totaltime": 35,
+            "staytime": 0,
+            "temperature":null,
+            "waterAmount": 500, 
+            "amount": 200,
+            "cover":1,
+            "heatLevel":1,
+            "mixing": true,
+            "waterInitTemp":2,
+            "result": 3,
+            "feedback":4
+
+        },
+        "TRY-31":{
+            "totaltime": 35,
+            "staytime": 5,
+            "temperature":null,
+            "waterAmount": 500, 
+            "amount": 200,
+            "cover":1,
+            "heatLevel":1,
+            "mixing": true,
+            "waterInitTemp":2,
+            "result": 3,
+            "feedback":3
+
+        },
+        "TRY-32":{
+            "totaltime": 30,
+            "staytime": 0,
+            "temperature":null,
+            "waterAmount": 500, 
+            "amount": 200,
+            "cover":1,
+            "heatLevel":1,
+            "mixing": true,
+            "waterInitTemp":2,
+            "result": 3,
+            "feedback":3
+
+        },
+        "TRY-33":{
+            "totaltime": 30,
+            "staytime": 5,
+            "temperature":null,
+            "waterAmount": 500, 
+            "amount": 200,
+            "cover":1,
+            "heatLevel":1,
+            "mixing": true,
+            "waterInitTemp":2,
+            "result": 2,
+            "feedback":3
+
+        },
+        "TRY-34":{
+            "totaltime": 25,
+            "staytime": 0,
+            "temperature":null,
+            "waterAmount": 500, 
+            "amount": 200,
+            "cover":1,
+            "heatLevel":1,
+            "mixing": true,
+            "waterInitTemp":2,
+            "result": 2,
+            "feedback":2
+
+        },
+        "TRY-35":{
+            "totaltime": 25,
+            "staytime": 5,
+            "temperature":null,
+            "waterAmount": 500, 
+            "amount": 200,
+            "cover":1,
+            "heatLevel":1,
+            "mixing": true,
+            "waterInitTemp":2,
+            "result": 1,
+            "feedback":2
+
+        },
+        "TRY-36":{
+            "totaltime": 20,
+            "staytime": 0,
+            "temperature":null,
+            "waterAmount": 500, 
+            "amount": 200,
+            "cover":1,
+            "heatLevel":1,
+            "mixing": true,
+            "waterInitTemp":2,
+            "result": 1,
+            "feedback":2
+
+        },
+        "TRY-37":{
+            "totaltime": 20,
+            "staytime": 5,
+            "temperature":null,
+            "waterAmount": 500, 
+            "amount": 200,
+            "cover":1,
+            "heatLevel":1,
+            "mixing": true,
+            "waterInitTemp":2,
+            "result": 1,
+            "feedback":1
+
+        },
+        "TRY-38":{
+            "totaltime": 17,
+            "staytime": 0,
+            "temperature":null,
+            "waterAmount": 500, 
+            "amount": 200,
+            "cover":1,
+            "heatLevel":1,
+            "mixing": true,
+            "waterInitTemp":2,
+            "result": 1,
+            "feedback":1
+
+        },
+        "TRY-39":{
+            "totaltime": 17,
+            "staytime": 5,
+            "temperature":null,
+            "waterAmount": 500, 
+            "amount": 200,
+            "cover":1,
+            "heatLevel":1,
+            "mixing": true,
+            "waterInitTemp":2,
+            "result": 0,
+            "feedback":1
+
         }
-     
     }
+     
+}
